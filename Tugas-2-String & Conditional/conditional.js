@@ -30,7 +30,16 @@ console.log(werewolfGame(nama, peran))
 // switch case
 var tanggal = "17"
 var bulan = "08"
-var tahun = "1945"
+var tahun = "2201"
+
+const formatTanggal = (tanggal) => {
+    let ret = ``
+    switch (true) {
+        case ((tanggal >= 1) && (tanggal <= 31)): ret = Number(tanggal); break;
+        default: ret = `Invalid!`
+    }
+    return ret;
+}
 
 const formatBulan = (bulan) => {
     let ret = ``
@@ -52,6 +61,13 @@ const formatBulan = (bulan) => {
     return ret
 }
 
-console.log(`${tanggal} ${formatBulan(bulan)} ${tahun}`)
+const formatTahun = (tahun) => {
+    let ret = ``
+    switch (true) {
+        case ((Number(tahun) >= 1900) && (Number(tahun) <= 2200)): ret = Number(tahun); break;
+        default: ret = `Invalid!`
+    }
+    return ret
+}
 
-
+console.log(`${formatTanggal(tanggal)} ${formatBulan(bulan)} ${formatTahun(tahun)}`)
