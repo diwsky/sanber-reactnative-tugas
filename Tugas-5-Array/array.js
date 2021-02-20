@@ -79,9 +79,9 @@ const balikKata = (kata) => {
 const balikKata2 = (kata) => kata.split("").reverse().join("")
 
 console.log(balikKata2("Kasur Rusak")) // kasuR rusaK
-console.log(balikKata2("SanberCode")) // edoCrebnaS
+console.log(balikKata("SanberCode")) // edoCrebnaS
 console.log(balikKata2("Haji Ijah")) // hajI ijaH
-console.log(balikKata2("racecar")) // racecar
+console.log(balikKata("racecar")) // racecar
 console.log(balikKata2("I am Sanbers")) // srebnaS ma I 
 
 console.log(`=== Nomor 6 ===`)
