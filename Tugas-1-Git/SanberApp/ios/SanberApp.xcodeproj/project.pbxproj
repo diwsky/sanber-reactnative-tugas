@@ -17,6 +17,11 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* SanberAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SanberAppTests.m */; };
 		35EB75DA0077ACE42504E11D /* libPods-SanberApp-SanberAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7060520414695697067368D2 /* libPods-SanberApp-SanberAppTests.a */; };
+		5276A59725EFD53200B8AB5F /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5276A59225EFD53200B8AB5F /* Quicksand-Bold.ttf */; };
+		5276A59825EFD53200B8AB5F /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5276A59325EFD53200B8AB5F /* Quicksand-Medium.ttf */; };
+		5276A59925EFD53200B8AB5F /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5276A59425EFD53200B8AB5F /* Quicksand-Light.ttf */; };
+		5276A59A25EFD53200B8AB5F /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5276A59525EFD53200B8AB5F /* Quicksand-SemiBold.ttf */; };
+		5276A59B25EFD53200B8AB5F /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5276A59625EFD53200B8AB5F /* Quicksand-Regular.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		EF5EE4F3A1233085F8192816 /* libPods-SanberApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C65EE86E173BF0C927FDA4 /* libPods-SanberApp.a */; };
 		FCADA793DCD19A059C94DF66 /* libPods-SanberApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3BB1DF910FD6B1D9906B45 /* libPods-SanberApp-tvOSTests.a */; };
@@ -57,6 +62,11 @@
 		3F28D4E9112C331BDFB65B44 /* Pods-SanberApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanberApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-SanberApp-tvOS/Pods-SanberApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		509CB71A46BFAD246BC3FD8C /* Pods-SanberApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanberApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-SanberApp-tvOSTests/Pods-SanberApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		5240427F0D241531409E57C3 /* Pods-SanberApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanberApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-SanberApp-tvOSTests/Pods-SanberApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5276A59225EFD53200B8AB5F /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Bold.ttf"; path = "../../../../../../../../Downloads/Quicksand/static/Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		5276A59325EFD53200B8AB5F /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Medium.ttf"; path = "../../../../../../../../Downloads/Quicksand/static/Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		5276A59425EFD53200B8AB5F /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Light.ttf"; path = "../../../../../../../../Downloads/Quicksand/static/Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		5276A59525EFD53200B8AB5F /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-SemiBold.ttf"; path = "../../../../../../../../Downloads/Quicksand/static/Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		5276A59625EFD53200B8AB5F /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Quicksand-Regular.ttf"; path = "../../../../../../../../Downloads/Quicksand/static/Quicksand-Regular.ttf"; sourceTree = "<group>"; };
 		5E94EE09503AA03BCEE14F21 /* libPods-SanberApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SanberApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7060520414695697067368D2 /* libPods-SanberApp-SanberAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SanberApp-SanberAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		708DD70DB9F97C45259A570E /* Pods-SanberApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SanberApp.debug.xcconfig"; path = "Target Support Files/Pods-SanberApp/Pods-SanberApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +159,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5276A59125EFD51500B8AB5F /* Custom Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5276A59225EFD53200B8AB5F /* Quicksand-Bold.ttf */,
+				5276A59425EFD53200B8AB5F /* Quicksand-Light.ttf */,
+				5276A59325EFD53200B8AB5F /* Quicksand-Medium.ttf */,
+				5276A59625EFD53200B8AB5F /* Quicksand-Regular.ttf */,
+				5276A59525EFD53200B8AB5F /* Quicksand-SemiBold.ttf */,
+			);
+			path = "Custom Fonts";
+			sourceTree = "<group>";
+		};
 		7F8D7FD31D3F39037916A299 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +196,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				5276A59125EFD51500B8AB5F /* Custom Fonts */,
 				13B07FAE1A68108700A75B9A /* SanberApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* SanberAppTests */,
@@ -342,7 +365,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				5276A59825EFD53200B8AB5F /* Quicksand-Medium.ttf in Resources */,
+				5276A59B25EFD53200B8AB5F /* Quicksand-Regular.ttf in Resources */,
+				5276A59725EFD53200B8AB5F /* Quicksand-Bold.ttf in Resources */,
+				5276A59A25EFD53200B8AB5F /* Quicksand-SemiBold.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				5276A59925EFD53200B8AB5F /* Quicksand-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

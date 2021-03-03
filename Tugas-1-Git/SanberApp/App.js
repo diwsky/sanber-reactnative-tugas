@@ -16,21 +16,15 @@ import {
   StatusBar,
 } from 'react-native';
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
-import Telegram from './Tugas/Tugas12/Telegram/Telegram.js';
+import Login from './Tugas/Tugas13/Login/Login';
+import Profile from './Tugas/Tugas13/Profile/Profile';
 
 const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <Telegram />
+      {/* <Login></Login> */}
+      <Login></Login>
     </>
   );
 };

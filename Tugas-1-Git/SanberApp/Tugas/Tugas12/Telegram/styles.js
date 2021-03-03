@@ -1,28 +1,28 @@
 import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
-  Header: {
+  header: {
     height: 50,
     marginTop: 30,
     backgroundColor: '#517DA2',
     justifyContent: 'center',
   },
-  Container: {
+  container: {
     flex: 1,
     backgroundColor: 'white',
   },
-  Subheader: {
+  subheader: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingHorizontal: 18,
   },
-  SubContentHeader: {
+  subcontentHeader: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
   },
-  AvatarDrawer: {
+  avatarDrawer: {
     height: 12,
     width: 18,
   },
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
   },
   NameMessages: {
     paddingLeft: 15,
-    backgroundColor:'red'
+    backgroundColor: 'red',
   },
   AvatarPen: {
     height: 18,
