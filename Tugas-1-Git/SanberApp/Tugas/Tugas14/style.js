@@ -42,8 +42,8 @@ const styles = StyleSheet.create({
   containerResult: {
     justifyContent: 'space-around',
     padding: 5,
-    height: '50%',
-    width: '80%',
+    height: '100%',
+    width: '100%',
   },
   delete: {
     alignItems: 'flex-start',

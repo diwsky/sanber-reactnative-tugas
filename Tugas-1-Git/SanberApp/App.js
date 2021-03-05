@@ -16,17 +16,15 @@ import {
   StatusBar,
 } from 'react-native';
 
-import Login from './Tugas/Tugas13/Login/Login';
-import Profile from './Tugas/Tugas13/Profile/Profile';
-import Index from './Tugas/Tugas14/restapi';
+import Index from './Tugas/Tugas15/index';
 
 const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      {/* <Login></Login> */}
-
-      <Index></Index>
+      <SafeAreaView style={{flex: 1}}>
+        <Index></Index>
+      </SafeAreaView>
     </>
   );
 };

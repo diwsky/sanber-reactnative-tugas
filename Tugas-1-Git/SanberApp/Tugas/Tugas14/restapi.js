@@ -48,7 +48,10 @@ const restapi = () => {
     };
     if (button === 'Update') {
       axios
-        .put('https://achmadhilmy-sanbercode.my.id/api/v1/news', data)
+        .put(
+          `https://achmadhilmy-sanbercode.my.id/api/v1/news/${selectedNews.id}`,
+          data,
+        )
         .then((res) => {
           console.log(`setelah update: ${res}`);
           setId('');
@@ -62,10 +65,7 @@ const restapi = () => {
         });
     } else {
       axios
-        .post(
-          `https://achmadhilmy-sanbercode.my.id/api/v1/news/${selectedNews.id}`,
-          data,
-        )
+        .post(`https://achmadhilmy-sanbercode.my.id/api/v1/news/`, data)
         .then((res) => {
           setKey('');
           setVal('');
@@ -123,7 +123,7 @@ const restapi = () => {
           value={val}
           onChangeText={(value) => setVal(value)}></TextInput>
         <TouchableOpacity style={styles.submitButton}>
-          <Text style={{alignSelf: 'center'}} onPress={() => submit()}>
+          <Text style={{alignSelf: 'center'}} onPress={submit}>
             {button}
           </Text>
         </TouchableOpacity>
