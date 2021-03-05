@@ -18,13 +18,15 @@ import {
 
 import Login from './Tugas/Tugas13/Login/Login';
 import Profile from './Tugas/Tugas13/Profile/Profile';
+import Index from './Tugas/Tugas14/restapi';
 
 const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
       {/* <Login></Login> */}
-      <Login></Login>
+
+      <Index></Index>
     </>
   );
 };
