@@ -16,9 +16,33 @@ const restapi = () => {
   const [users, setUsers] = useState([]);
   const [button, setbutton] = useState('Submit');
   const [selectedNews, setselectedNews] = useState({});
+  const [name, setName] = useState('John Doe');
 
   useEffect(() => {
-    getData();
+    setUsers([
+      {
+        id: 1,
+        title: 'Test1',
+        value: 'Value1',
+      },
+      {
+        id: 2,
+        title: 'Test1',
+        value: 'Value1',
+      },
+      {
+        id: 3,
+        title: 'Test1',
+        value: 'Value1',
+      },
+    ]);
+  }, []);
+
+  useEffect(() => {
+    setTimeout(() => setName('Di dalam timeout'), 2000);
+    return () => {
+      setName('Hasil Return');
+    };
   }, []);
 
   const getData = () => {
@@ -108,7 +132,6 @@ const restapi = () => {
       </View>
     );
   };
-
   return (
     <View style={styles.container}>
       <Text style={styles.titleText}> RestApi</Text>
@@ -127,10 +150,34 @@ const restapi = () => {
             {button}
           </Text>
         </TouchableOpacity>
+        <Text style={{fontSize: 20, alignSelf: 'center'}}>{name}</Text>
       </View>
 
       <View style={styles.containerResult}>
-        <ScrollView>{users.map((user) => renderItem({user}))}</ScrollView>
+        <ScrollView>
+          {users.map((user) => {
+            return (
+              <View key={user.id} style={styles.boxResult}>
+                <TouchableOpacity
+                  onPress={() => {
+                    edit(user);
+                  }}
+                  style={{marginLeft: 5, padding: 5, backgroundColor: 'white'}}>
+                  <Text>Edit</Text>
+                </TouchableOpacity>
+                <View>
+                  <Text style={{color: 'white'}}> {user.title} </Text>
+                  <Text style={{color: 'white'}}> {user.value} </Text>
+                </View>
+                <View style={styles.delete}>
+                  <TouchableOpacity onPress={() => deleteUser(user)}>
+                    <Text style={{color: 'yellow'}}>X</Text>
+                  </TouchableOpacity>
+                </View>
+              </View>
+            );
+          })}
+        </ScrollView>
       </View>
     </View>
   );

@@ -32,21 +32,25 @@ const styles = StyleSheet.create({
     borderRadius: 8,
   },
   boxResult: {
+    alignItems: 'center',
     backgroundColor: 'black',
     padding: 15,
     borderRadius: 7,
     margin: 5,
-    width: '80%',
+    width: 250,
     flexDirection: 'row',
+    justifyContent: 'space-between',
   },
   containerResult: {
+    backgroundColor: 'yellow',
     justifyContent: 'space-around',
     padding: 5,
-    height: '100%',
+    height: 250,
     width: '100%',
+    alignItems: 'center',
   },
   delete: {
-    alignItems: 'flex-start',
+    alignItems: 'flex-end',
   },
 });
 

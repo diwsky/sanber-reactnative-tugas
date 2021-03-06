@@ -15,15 +15,20 @@ import {
   Text,
   StatusBar,
 } from 'react-native';
+import 'react-native-gesture-handler';
 
 import Index from './Tugas/Tugas15/index';
+import RestApis from './Tugas/Tugas14/restapi';
+import Quiz from './Quiz3/index';
 
 const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={{flex: 1}}>
-        <Index></Index>
+        {/* <Index></Index> */}
+        {/* <RestApis></RestApis> */}
+        <Quiz></Quiz>
       </SafeAreaView>
     </>
   );

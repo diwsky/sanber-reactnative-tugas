@@ -24,9 +24,9 @@ const Stack = createStackNavigator();
 export default Router = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="HomeScreen" component={HomeScreen}></Stack.Screen>
+      <Stack.Navigator initialRouteName="LoginScreen">
         <Stack.Screen name="LoginScreen" component={LoginScreen}></Stack.Screen>
+        <Stack.Screen name="HomeScreen" component={HomeScreen}></Stack.Screen>
         <Stack.Screen name="MainApp" component={MainApp}></Stack.Screen>
         <Stack.Screen name="MyDrawer" component={MyDrawer}></Stack.Screen>
       </Stack.Navigator>
